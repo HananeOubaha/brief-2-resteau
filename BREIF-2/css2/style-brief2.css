@@ -1,0 +1,122 @@
+*{
+    padding: 0;
+    margin: 0;
+   box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    text-decoration: none;
+    list-style: none;
+    scroll-behavior: smooth; 
+}
+ /* :root{
+    --bg-color:transparent;
+    --text-color:#E9BD8C;
+    --second-color:#fbfaf9; 
+    --main-color: #fbfaf9;
+    --big-font: 6rem;
+    --h2-font: 3rem;
+    --p-font: 1.1rem;
+}  */
+body{
+    background:transparent;
+    /* color of titles of the footer */
+    color:#E9BD8C ;
+}
+body a{
+    color: white;
+}
+header{
+    
+    display: flex;
+    justify-content: space-between;
+    margin-top: -5%;
+    padding-top: 0;
+    top: 0;
+    padding: -80% 5%;
+    right: 0;
+    width: 100%;
+    align-items: center;
+    gap: 50px;
+    /* z-index: 1000; 
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: transparent;
+    padding: 10px 18%;
+    transition: ease .40s; */
+    
+} 
+.logo{
+    
+    width: 100px;
+
+}
+.navbar{
+    display:flex;
+}
+.navbar a{
+    color:white;
+    font-size: var(--p-font);
+    font-weight: 500;
+    padding: 10px 50px 0 0;
+    border-radius: 4px;
+    transition: ease .40s;
+}
+.navbar a:hover{
+    background: var(--bg-color);
+    color: var(--text-color);
+    box-shadow: 5px 10px 30px rgb(85 85 85 / 20%);
+    border-radius: 4px;
+}
+section{
+    padding: 80px 18%;
+}
+.home{
+    
+    height: 100vh;
+    position: relative;
+    width: 100%;
+    background: url(../img-brief-2/backg-home.png);
+    background-size: cover;
+    background-position: center;
+    
+    
+}
+
+.home-btn1{
+    display: inline-block;
+    font-size: 24px;
+    padding: 15px 30px;
+    background: #933C24;
+    color: var(--main-color);
+    border-radius: 4px;
+    transition: ease .40s;
+    font-family:'semi bold','inter';
+}
+.home-btn2{
+    display: inline-block;
+    font-size: 24px;
+    padding: 15px 30px;
+    background: transparent;
+    color: var(--main-color);
+    border-radius: 4px;
+    transition: ease .40s;
+}
+
+.home-btn:hover{
+    background: var(--bg-color);
+    transform: scale(1.1);
+}
+.home-text h3{
+    font-family:'semi Bold','Inter';
+    font: size 24px;
+    color: #E9BD8C;
+    margin-top: 150px;
+    font-weight: 600;
+    
+}
+.home-text p{
+    font-family:'regular','Sansita swashed';
+    font-size: 74px;
+    color:#F5F5F5;
+    margin-bottom: 100px;
+}
