@@ -18,24 +18,27 @@
 }  */
 body{
     background:transparent;
+     /* background-color: #2f2f2f; */
     /* color of titles of the footer */
     color:#E9BD8C ;
+     /* color: #fff; */
+     font-size: 16px;
 }
 body a{
     color: white;
 }
-header{
-    
+ .header{
     display: flex;
     justify-content: space-between;
-    margin-top: -5%;
+    flex-direction: column;
+    /* margin-top: -5%;
     padding-top: 0;
     top: 0;
     padding: -80% 5%;
     right: 0;
     width: 100%;
     align-items: center;
-    gap: 50px;
+    gap: 50px; */
     /* z-index: 1000; 
     display: flex;
     align-items: center;
@@ -47,11 +50,16 @@ header{
 } 
 .logo{
     
-    width: 100px;
+    width: 80px;
+    height: auto;
 
 }
 .navbar{
     display:flex;
+    /* justify-content: space-between; */
+    /* I ADD  */
+    padding: 20px 50px;
+    align-items: center;
 }
 .navbar a{
     color:white;
@@ -60,6 +68,12 @@ header{
     padding: 10px 50px 0 0;
     border-radius: 4px;
     transition: ease .40s;
+    /* I ADD  */
+    list-style: none;
+    display: flex;
+    gap: 20px;
+    text-decoration: none;
+    font-weight: bold;
 }
 .navbar a:hover{
     background: var(--bg-color);
@@ -72,7 +86,8 @@ section{
 }
 .home{
     
-    height: 100vh;
+    /* height: 100vh; */
+    min-height: 100vh;
     position: relative;
     width: 100%;
     background: url(../img-brief-2/backg-home.png);
@@ -120,5 +135,109 @@ section{
     font-family:'regular','Sansita swashed';
     font-size: 74px;
     color:#F5F5F5;
-    margin-bottom: 100px;
+    /*margin-bottom: 100px;*/
+}
+#contact{
+    background-image:  url(../img-brief-2/FOOTER\ BACKROUND.png);
+    height:633px; 
+    background-size: cover;
+    /* min-height: 80vh; */
+    background-position: center;
+    position: relative;
+    overflow: hidden;
+    padding: 20px 0;
+    margin: 0;
+    position: relative;
+}
+
+.footer{ 
+    height:633px; 
+    /* min-height: 80vh; */
+    position: relative;
+    overflow: hidden;
+    padding: 20px 0;
+    margin: 0;
+    position: relative;
+}
+hr{
+    border: none;
+    background-color: #E9BD8C;
+    border-bottom: 0.5px solid;
+}
+#folow{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+/* .footer{
+    padding: 20px 0;
+    background:  url(../img-brief-2/FOOTER\ BACKROUND.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+} */
+.main{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.list{
+    width: 25%;
+    /* color:var(--bg-color); */
+
+}
+.list li{
+    list-style-type: none;
+
+}
+.list a{
+    color:white;
+} 
+.list p{
+    font-size: 21px;
+    color: white;
+    margin-bottom: 30px;
+    position: relative;
+}
+.list h4{
+    font-size: 21px;
+    color: var(--bg-color);
+    margin-bottom: 30px;
+    position: relative;
+}
+.list h4::before{
+    content: "";
+    position: absolute;
+    height: 2px;
+    width: 60px;
+    left: 0;
+    bottom: -10px;
+    background: var(--bg-color);
+}
+.list ul li:not(:last-child) {
+    margin-bottom: 16px;
+}
+.list ul li a{
+    color: #ffffffbf;
+    font-size: var(--p-font);
+    display: flex;
+    transition: .3s;
+}
+.list ul li a:hover{
+    color: var(--bg-color);
+    transform: translateX(14px);
+}
+.list p{
+    font-size: 21px;
+    color: white;
+    margin-bottom: 30px;
+    position: relative;
+}
+.end-text{
+    text-align: center;
+    padding-top: 90px;
+}
+.end-text p{
+    color: var(--bg-color);
+    font-size: 14px;
+    letter-spacing: 2px;
 }
