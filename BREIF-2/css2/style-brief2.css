@@ -470,3 +470,174 @@ body {
     margin: 0 auto;
     line-height: 1.6;
 }
+/* css page de menu */
+.title-page{
+	text-align: center;
+	margin: 50px auto 0;
+	padding: 10px;
+}
+.title-page h2{
+align-items: center;
+justify-content: center;
+font-size: 48px;
+font-weight: 600;
+font-family: Sansita Swashed;
+}
+.package-content{
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+	grid-gap: 1rem;
+	align-items: center;
+	margin-top: 1rem;
+
+}
+
+.thum {
+    position: relative;
+    overflow: hidden;
+    transition: transform 0.3s ease;
+}
+
+.thum:hover{
+
+	transform: scale(1.04);
+}
+
+.thum img {
+    width: 100%;
+    height: auto;
+    transition: transform 0.3s ease;
+}
+.thum:hover .product-overlay {
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.thum:hover img {
+    transform: scale(1.1);
+}
+
+.thum h4 {
+    color: white;
+    margin: 10px 0;
+    transition: transform 0.3s ease;
+}
+.product-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 20px;
+    transition: background-color 0.3s ease;
+}
+
+.product-top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+	margin-top: 180px;
+	margin-bottom: 10px;
+}
+.product-top a svg {
+    transition: transform 0.3s ease; 
+}
+
+.product-top a:hover svg {
+    transform: scale(1.2); 
+}
+
+.product-top h3 {
+    margin: 0;
+    color: var(--bg-color);
+	font-family: inter;
+}
+/* style for the featured text */
+.legende-pastry{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+	margin-top: 0;
+}
+
+.legende-pastry h3 {
+    margin: 0;
+	margin-top: 10px;
+    color: black;
+	font-family: inter;
+}
+.add-btn {
+    align-self: flex-end;
+    padding: 10px 20px;
+    background-color:#933C24;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: all 0.3s ease;
+}
+
+.add-btn:hover {
+    background-color: var(--main-color);
+    transform: scale(1.05);
+}
+.homebtn-shop,
+.homebtn-learn {
+    font-size: 16px; 
+    padding: 15px 30px;
+    border-radius: 4px;
+	font-weight: 600;
+	transition: all 0.3s ease;
+}
+.homebtn-shop{
+	background: #933C24;
+	color: white;
+}
+.homebtn-shop:hover{
+    font-size: 18px; 
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3); 
+	background: #933C24;
+    transform: translateY(-2px); 
+}
+/* css menu page reduction */
+.subhome{
+	position: relative;
+	width: 100%;
+	height: 100vh;
+	background:  url(../img-brief-2/section\ 2\ menu.png);
+	background-size: cover;
+	background-position: center;
+	display: grid;
+	grid-template-columns: repeat(1, 1fr);
+	align-items: center;
+	text-align: center;
+	margin-top: 0;
+}
+.subhome-text h1{
+	font-size: 3.5rem;
+	line-height: 1.8;
+	color: #933C24;
+	font-family: Sansita Swashed;
+	letter-spacing: 4px;
+	margin-bottom: 200px;
+}
+/* css menu page cake  */
+.menubar{
+	display: flex;
+	justify-content: center;
+	align-content: center;
+}
+.menubar a{
+	color: #5D5D5D;
+	font-family: poppins;
+	font-size: var(--p-font);
+	font-weight: 600;
+	padding: 10px 40px;
+}
+.menubar a:hover{
+	color: var(--second-color);
+}
+.line {
+	border-bottom: 5px solid #933C24;
+}
