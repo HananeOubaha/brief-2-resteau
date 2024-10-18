@@ -241,3 +241,231 @@ hr{
     font-size: 14px;
     letter-spacing: 2px;
 }
+/* css pour contact  */
+/* General Styles */
+body {
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+/* Navigation Bar */
+.navbarcontact {
+    display: flex;
+    align-items: center;
+    background-image: url(../img-brief-2/back-nav-about.png); 
+    height: 98px; /* Set height of the navbar */
+    padding: 0 20px;
+    background-size: cover;
+}
+.navbarcontact .logo{
+    margin-right: auto;
+}
+
+.logocontact img {
+    height: 60px; /* Adjust logo size */
+    margin-right: 20px;
+}
+
+.navbar {
+    list-style: none;
+    display: flex;
+    margin:0;
+    padding: 0;
+    gap: 20px;
+}
+
+.navbar li {
+    margin-left: 20px;
+}
+
+.navbar li a {
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+}
+
+/* Contact Section */
+.contact-section {
+     background-image:  url(../img-brief-2/backroud\ patisserie\ 2\ 2.png); 
+    background-size: cover;
+    height: 1840px; 
+    text-align: center;
+    padding: 50px;
+    color: white;
+}
+.contact-section h1 {
+    font-size: 60px; /* Set font size to 60 */
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+}
+.contact-section p {
+    font-size: 36px; /* Set font size to 36 */
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500; /* Medium weight */
+    margin-top: 50px;
+}
+.contact-form-wrapper {
+    background-color:transparent;
+    border: 2px solid #E9BD8C; /* Create thin border */
+    padding: 30px;
+    max-width: 618px;
+    margin: 0 auto;
+    border-radius: 10px;
+    height: 700px;
+    margin-top: 100px;
+}
+.contact-form h2 {
+    font-size: 30px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+/* .contact-form form {
+    display: flex;
+    flex-direction: column;
+} */
+
+.contact-form {
+    background-color:transparent;
+    /* padding: 20px; */
+    max-width: 544px;
+    margin: 0 auto;
+    border-radius: 10px;
+}
+
+/* .contact-form label {
+    display: block;
+    margin-top: 10px;
+    text-align: left;
+} */
+
+.contact-form input,
+.contact-form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    margin-bottom: 50px;
+    border: none;
+    border-radius: 5px;
+}
+/* .contact-form button {
+    padding: 10px 20px;
+    background-color: #ffa500;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+} */
+/* Footer Section */
+.footercontact {
+    background:  url(../img-brief-2/FOOTER\ BACKROUND.png);
+    color: white;
+    height: 633px; /* Set footer height */
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    max-width: 1200px;
+}
+
+.footer-logo img {
+    height: 100px;
+}
+
+.footer-info,
+.footer-explore,
+.footer-news {
+    flex: 1;
+    margin-left: 20px;
+}
+
+.footer-explore ul,
+.footer-news ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-explore ul li,
+.footer-news ul li {
+    margin-bottom: 10px;
+}
+
+.footer-explore ul li a,
+.footer-news ul li a {
+    text-decoration: none;
+    color: white;
+}
+/* about styl css */
+.about-section {
+    background:  url(../img-brief-2/aboutback.png);
+    background-size: cover;
+    background-position: center;
+    height: 454px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: white;
+}
+
+.about-content {
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.about-section h1 {
+    font-family: 'Sansita Swashed', cursive;
+    font-size: 48px;
+    margin: 0;
+}
+
+.about-section p {
+    font-family: 'Inter', sans-serif;
+    font-size: 20px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+ .about-content a {
+    display: inline-block;
+    font-size: 24px;
+    padding: 15px 30px;
+    background: #933C24;
+    color: var(--main-color);
+    border-radius: 4px;
+    transition: ease .40s;
+    font-family:'semi bold','inter';
+}
+
+
+/* Section 2: Sweet Treats */
+.treats-section {
+    background:  url(../img-brief-2/backroud\ patisserie\ 2\ 2.png);
+    background-size: cover;
+    background-position: center;
+    padding: 50px 20px;
+    color: white;
+    text-align: center;
+    height: 1799px;
+
+}
+
+.treats-section h2 {
+    font-family: 'Sansita Swashed', 'cursive';
+    font-size: 50px;
+    margin-bottom: 20px;
+}
+
+.treats-section p {
+    font-family: 'Inter', sans-serif;
+    font-size: 20px;
+    max-width: 800px;
+    margin: 0 auto;
+    line-height: 1.6;
+}
