@@ -7,21 +7,18 @@
     list-style: none;
     scroll-behavior: smooth; 
 }
- /* :root{
-    --bg-color:transparent;
-    --text-color:#E9BD8C;
-    --second-color:#fbfaf9; 
-    --main-color: #fbfaf9;
-    --big-font: 6rem;
-    --h2-font: 3rem;
-    --p-font: 1.1rem;
-}  */
+:root{
+	--bg-color: white;
+	--text-color: #F5F5F5;
+	--second-color: #E9BD8C;
+	--main-color: #933C24;
+	--big-font: 4.5rem;
+	--h2-font: 3rem;
+	--p-font: 1.1rem;
+}
 body{
     background:transparent;
-     /* background-color: #2f2f2f; */
-    /* color of titles of the footer */
     color:#E9BD8C ;
-     /* color: #fff; */
      font-size: 16px;
 }
 body a{
@@ -31,21 +28,6 @@ body a{
     display: flex;
     justify-content: space-between;
     flex-direction: column;
-    /* margin-top: -5%;
-    padding-top: 0;
-    top: 0;
-    padding: -80% 5%;
-    right: 0;
-    width: 100%;
-    align-items: center;
-    gap: 50px; */
-    /* z-index: 1000; 
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    background: transparent;
-    padding: 10px 18%;
-    transition: ease .40s; */
     
 } 
 .logo{
@@ -56,8 +38,6 @@ body a{
 }
 .navbar{
     display:flex;
-    /* justify-content: space-between; */
-    /* I ADD  */
     padding: 20px 50px;
     align-items: center;
 }
@@ -68,7 +48,6 @@ body a{
     padding: 10px 50px 0 0;
     border-radius: 4px;
     transition: ease .40s;
-    /* I ADD  */
     list-style: none;
     display: flex;
     gap: 20px;
@@ -86,7 +65,6 @@ section{
 }
 .home{
     
-    /* height: 100vh; */
     min-height: 100vh;
     position: relative;
     width: 100%;
@@ -114,7 +92,7 @@ section{
     font-size: 24px;
     padding: 15px 30px;
     background: transparent;
-    color: var(--main-color);
+    color: var(--second-color);
     border-radius: 4px;
     transition: ease .40s;
 }
@@ -135,13 +113,11 @@ section{
     font-family:'regular','Sansita swashed';
     font-size: 74px;
     color:#F5F5F5;
-    /*margin-bottom: 100px;*/
 }
 #contact{
     background-image:  url(../img-brief-2/FOOTER\ BACKROUND.png);
     height:633px; 
     background-size: cover;
-    /* min-height: 80vh; */
     background-position: center;
     position: relative;
     overflow: hidden;
@@ -152,7 +128,6 @@ section{
 
 .footer{ 
     height:633px; 
-    /* min-height: 80vh; */
     position: relative;
     overflow: hidden;
     padding: 20px 0;
@@ -169,12 +144,6 @@ hr{
     flex-direction: row;
     justify-content: space-around;
 }
-/* .footer{
-    padding: 20px 0;
-    background:  url(../img-brief-2/FOOTER\ BACKROUND.png);
-    background-repeat: no-repeat;
-    background-size: cover;
-} */
 .main{
     display: flex;
     justify-content: space-around;
@@ -182,7 +151,6 @@ hr{
 }
 .list{
     width: 25%;
-    /* color:var(--bg-color); */
 
 }
 .list li{
@@ -205,7 +173,6 @@ hr{
     position: relative;
 }
 .list h4::before{
-    content: "";
     position: absolute;
     height: 2px;
     width: 60px;
@@ -242,7 +209,6 @@ hr{
     letter-spacing: 2px;
 }
 /* css pour contact  */
-/* General Styles */
 body {
     margin: 0;
     font-family: 'Poppins', sans-serif;
@@ -253,7 +219,7 @@ body {
     display: flex;
     align-items: center;
     background-image: url(../img-brief-2/back-nav-about.png); 
-    height: 98px; /* Set height of the navbar */
+    height: 98px; 
     padding: 0 20px;
     background-size: cover;
 }
@@ -262,7 +228,7 @@ body {
 }
 
 .logocontact img {
-    height: 60px; /* Adjust logo size */
+    height: 60px; 
     margin-right: 20px;
 }
 
@@ -294,19 +260,19 @@ body {
     color: white;
 }
 .contact-section h1 {
-    font-size: 60px; /* Set font size to 60 */
+    font-size: 60px;
     font-family: 'Poppins', sans-serif;
     font-weight: bold;
 }
 .contact-section p {
-    font-size: 36px; /* Set font size to 36 */
+    font-size: 36px; 
     font-family: 'Poppins', sans-serif;
-    font-weight: 500; /* Medium weight */
+    font-weight: 500; 
     margin-top: 50px;
 }
-.contact-form-wrapper {
+.contact-form-box {
     background-color:transparent;
-    border: 2px solid #E9BD8C; /* Create thin border */
+    border: 2px solid #E9BD8C; 
     padding: 30px;
     max-width: 618px;
     margin: 0 auto;
@@ -320,24 +286,13 @@ body {
     font-weight: bold;
     margin-bottom: 20px;
 }
-/* .contact-form form {
-    display: flex;
-    flex-direction: column;
-} */
 
 .contact-form {
     background-color:transparent;
-    /* padding: 20px; */
     max-width: 544px;
     margin: 0 auto;
     border-radius: 10px;
 }
-
-/* .contact-form label {
-    display: block;
-    margin-top: 10px;
-    text-align: left;
-} */
 
 .contact-form input,
 .contact-form textarea {
@@ -349,19 +304,11 @@ body {
     border-radius: 5px;
 }
 
-/* .contact-form button {
-    padding: 10px 20px;
-    background-color: #ffa500;
-    color: white;
-    border: none;
-    cursor: pointer;
-    border-radius: 5px;
-} */
 /* Footer Section */
 .footercontact {
     background:  url(../img-brief-2/FOOTER\ BACKROUND.png);
     color: white;
-    height: 633px; /* Set footer height */
+    height: 633px; 
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -402,7 +349,6 @@ body {
     text-decoration: none;
     color: white;
 }
-/* about styl css */
 .about-section {
     background:  url(../img-brief-2/aboutback.png);
     background-size: cover;
